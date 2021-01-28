@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MealPlanningApp</string>
+    <string name="menu_recipes">Find a recipe!</string>
+    <string name="menu_grocery">My grocery list</string>
+    <string name="menu_plan">Plan my meals!</string>
+    <string name="menu_bmi">Check my Body Mass Index</string>
+    <string name="bmi_weight"></string>
+    <string name="bmi_height"></string>
+    <string name="bmi_calculate">Calculate my BMI</string>
+    <string name="menu_fav">Favourites</string>
+</resources>

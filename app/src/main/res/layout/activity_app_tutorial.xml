@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/chopping_board"
+    tools:context=".AppTutorialActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="418dp"
+        android:layout_height="658dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text=" EatGood Application tutorial"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#0F330A"
+                android:textSize="30sp"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="388dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="casual"
+                android:text="Main menu"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Main menu is the first call to your meal planning journey, here shows
+images of available recipes and your options to achieve your nutrition goals"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="387dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="casual"
+                android:text="Finding a recipe"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="387dp"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:text="when finding recipe, simply choose the main ingredients of your meal
+of choice, suggestions will come up for you and will be able to read the contents such as ingredients,
+nutrition info, ease of cooking difficulty, time and the method for cooking!"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:layout_width="391dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="casual"
+                android:text="Adding to Grocery list"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="391dp"
+                android:layout_height="match_parent"
+                android:fontFamily="casual"
+                android:text="to add to your grocery list, simply tap 'my grocery list' on the main menu
+and type the ingredients that you may need , choose the quantity then press the add button, you can choose
+to remove the ingredients by swiping it to the left or right"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="384dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="casual"
+                android:text="Saving to Favourites"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="384dp"
+                android:layout_height="194dp"
+                android:fontFamily="casual"
+                android:text="If you find a specific recipe to match your taste and would like to cook it again, you can save the recipe to the 'favourites' page for quick access!"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

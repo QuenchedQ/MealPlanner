@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="4dp"
+    >
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="720dp"
+        android:layout_margin="4dp"
+        android:background="@drawable/backgrounds_food"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/fav"
+            android:layout_width="101dp"
+            android:layout_height="51dp"
+            android:src="@drawable/ic_favorite_border_black_24dp"></ImageView>
+
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical|start"
+                android:text="Recipe Name"
+                android:textAllCaps="true"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold"
+                android:fontFamily="casual"/>
+
+            <TextView
+                android:id="@+id/ingredients"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical|start"
+                android:text="Ingredients"
+                android:textAllCaps="true"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold"
+                android:fontFamily="casual"/>
+
+            <TextView
+                android:id="@+id/nutrition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical|start"
+                android:text="Calories and Nutrition"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:fontFamily="casual"/>
+
+            <TextView
+                android:id="@+id/difficulty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical|start"
+                android:text="Difficulty of process/cooking"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:fontFamily="casual"/>
+
+            <ImageView
+                android:id="@+id/recipeImage"
+                android:layout_width="239dp"
+                android:layout_height="121dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="casual"
+                tools:srcCompat="@drawable/carribean_chicken_rice" />
+
+
+            <TextView
+                android:id="@+id/method"
+                android:layout_width="400dp"
+                android:layout_height="421dp"
+                android:gravity="center_vertical|start"
+                android:text="Method of Cooking Shown here"
+                android:textAllCaps="true"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:fontFamily="casual"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
